@@ -1,5 +1,5 @@
 import { Outlet, NavLink, useLocation } from 'react-router-dom';
-import { Search, LayoutDashboard, Bell, Layers3, FileText, ChevronRight, ChevronDown, BookOpenText, SquareStack, CircleHelp } from 'lucide-react';
+import { Search, LayoutDashboard, Bell, Layers3, FileText, ChevronDown, BookOpenText, SquareStack, CircleHelp } from 'lucide-react';
 
 const steps = [
 	{ key: 'upload', label: 'Upload Design', num: 1 },
