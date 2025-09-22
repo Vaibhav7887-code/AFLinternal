@@ -1,4 +1,5 @@
-import { forwardRef } from 'react';\nimport type { ButtonHTMLAttributes } from 'react';
+import { forwardRef } from 'react';
+import type { ButtonHTMLAttributes } from 'react';
 import { type LucideIcon } from 'lucide-react';
 import classNames from 'classnames';
 

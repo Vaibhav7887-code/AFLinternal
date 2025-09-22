@@ -1,5 +1,6 @@
 import { create } from 'zustand';
-import type { QuoteItem } from '../data/mockQuotes';\nimport { getItemsByFilename } from '../data/mockQuotes';
+import type { QuoteItem } from '../data/mockQuotes';
+import { getItemsByFilename } from '../data/mockQuotes';
 
 interface UploadState {
   status: 'idle' | 'uploading' | 'processing' | 'success' | 'error';
