@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Upload, Search, Filter, ChevronDown, SortAsc, MapPin } from 'lucide-react';
-import { getChangeOrders, getVendors, mockCOProject, mockChangeOrders } from '../data/mockChangeOrders';
-import { Badge } from '../components/ui';
+import { Search, Filter, SortAsc, MapPin } from 'lucide-react';
+import { getChangeOrders, getVendors, mockChangeOrders } from '../data/mockChangeOrders';
 
 export default function ChangeOrders() {
   const navigate = useNavigate();
