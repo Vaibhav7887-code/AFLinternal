@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+	--color-primary: #16a34a;
+	--color-accent: #22c55e;
+	--radius-md: 8px;
+	--sidebar-w: 240px;
+	--bg-sidebar: #F9F9F9; /* Background/Secondary */
+	--bg-active: #F2F2F2; /* Action/Secondary/Selected */
+	--border-primary: #E4E4E4; /* Border/Primary */
+}
+
+:root { height: 100%; }
+html, body, #root { height: 100%; }
+
+/* Design System primitives */
+.ds-input { @apply rounded border bg-white py-1 text-sm h-9; } /* no px to allow per-instance pl/pr */
+.ds-btn { @apply inline-flex items-center justify-center rounded border bg-white px-3 py-1.5 text-sm shadow-sm; }
+.ds-btn-primary { @apply bg-[--color-primary] text-white border-transparent hover:brightness-95; }
+.ds-card { @apply bg-white border rounded-md; }
+.ds-sidebar-link { @apply flex items-center gap-2 rounded px-3 py-2 text-sm text-gray-500 hover:bg-gray-50; }
+.ds-sidebar-link-active { @apply text-green-700 bg-green-50 font-medium; }
