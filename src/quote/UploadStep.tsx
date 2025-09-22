@@ -1,4 +1,4 @@
-import { useRef, useCallback, useEffect } from 'react';
+import { useRef, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Upload as UploadIcon, CheckCircle } from 'lucide-react';
 import { useDemoStore } from '../stores/useDemoStore';

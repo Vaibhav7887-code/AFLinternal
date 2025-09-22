@@ -1,4 +1,4 @@
-import { HTMLAttributes } from 'react';
+import type { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
 type BadgeStatus = 'submitted' | 'pending' | 'approved' | 'rejected' | 'paid' | 'critical' | 'warning' | 'info' | 'success';

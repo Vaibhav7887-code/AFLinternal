@@ -4,9 +4,7 @@ import { ArrowRight, Upload, ChevronDown, ChevronUp } from 'lucide-react';
 import { 
   getBudgetByNGMR, 
   getStatusColor, 
-  formatCurrency, 
-  type PurchaseOrder,
-  type POItem 
+  formatCurrency
 } from '../data/mockBudget';
 
 export default function NGMRBudgetOverview() {

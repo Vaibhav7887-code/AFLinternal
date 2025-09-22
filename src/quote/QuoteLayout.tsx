@@ -10,7 +10,7 @@ const steps = [
 function SidebarItem({ to = '#', icon: Icon, label, active = false, exact = false }: { to?: string; icon: any; label: string; active?: boolean; exact?: boolean }) {
 	return (
 		<NavLink to={to} end={exact} className={({ isActive }) => `ds-sidebar-link ${active || isActive ? 'ds-sidebar-link-active' : ''}`}>
-			<Icon size={16} className={`${active || isActive ? 'text-green-600' : 'text-gray-400'}`} />
+			<Icon size={16} className={`${active ? 'text-green-600' : 'text-gray-400'}`} />
 			<span>{label}</span>
 		</NavLink>
 	);

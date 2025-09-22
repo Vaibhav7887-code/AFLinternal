@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Upload, Trash2, Search, Filter, CheckCircle } from 'lucide-react';
-import { getChangeOrderById, mockCOProject, type COItem } from '../data/mockChangeOrders';
+import { getChangeOrderById, mockCOProject } from '../data/mockChangeOrders';
 
 export default function ChangeOrderDetail() {
   const { id } = useParams<{ id: string }>();

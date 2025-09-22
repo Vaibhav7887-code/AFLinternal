@@ -1,4 +1,4 @@
-import { HTMLAttributes } from 'react';
+import type { HTMLAttributes } from 'react';
 import classNames from 'classnames';
 
 interface ProgressBarProps extends HTMLAttributes<HTMLDivElement> {

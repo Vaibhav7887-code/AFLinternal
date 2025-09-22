@@ -126,7 +126,7 @@ export function NotificationsPanel({ isOpen, onClose }: NotificationsPanelProps)
             <Bell className="h-5 w-5 text-gray-600" />
             <h2 className="text-lg font-semibold text-gray-900">Notifications</h2>
             {unreadCount > 0 && (
-              <Badge variant="danger" className="text-xs">
+              <Badge status="critical" className="text-xs">
                 {unreadCount}
               </Badge>
             )}
